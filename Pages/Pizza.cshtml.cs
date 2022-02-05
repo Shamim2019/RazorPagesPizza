@@ -10,20 +10,3 @@ namespace RazorPagesPizza.Pages
         }
      }
  }
-// using RazorPagesPizza.Models;
-// using RazorPagesPizza.Services;
-// public string GlutenFreeText(Pizza pizza)
-// {
-//     if (pizza.IsGlutenFree)
-//         return "Gluten Free";
-//     return "Not Gluten Free";
-// }
-// public IActionResult OnPost()
-// {
-//     if (!ModelState.IsValid)
-//     {
-//         return Page();
-//     }
-//     PizzaService.Add(NewPizza);
-//     return RedirectToAction("Get");
-// }
